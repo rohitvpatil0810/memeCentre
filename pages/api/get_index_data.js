@@ -3,7 +3,7 @@ import axios from "axios";
 export default async function handler(req, res) {
   try {
     const data = await axios.get(
-      "https://meme-api.herokuapp.com/gimme",
+      "https://meme-api.herokuapp.com/gimme/",
       { param: req.body.param },
       headers
     );
