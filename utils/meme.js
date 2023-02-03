@@ -1,5 +1,5 @@
 module.exports.meme = () => {
-  fetch("https://meme-api.herokuapp.com/gimme")
+  fetch("https://meme-api.com/gimme")
     .then((res) => res)
     .then((data) => {
       console.log(data);
